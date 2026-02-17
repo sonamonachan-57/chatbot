@@ -29,12 +29,18 @@ Install dependencies:
      pip install pyaudio
 
 How it works:
+
    Recognizer() initializes the speech recognizer
+   
    Microphone() captures live audio
+   
    adjust_for_ambient_noise() reduces background noise
+   
    recognize_google() converts speech into text
 
 Output:
+
+   ![speech to text Output](output/speech to text.png)
 
 
 
@@ -68,6 +74,7 @@ Technologies used:
 Install dependencies:
        
        pip install nltk
+       
 Download required NLTK data:
          
          import nltk
@@ -86,4 +93,5 @@ How it works:
 
 Output:
 
-   
+   ![chatbot Output](output/chatbot.png)
+
