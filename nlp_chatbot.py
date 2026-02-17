@@ -1,11 +1,3 @@
-import os
-import sys
-venv_path = '/home/sona-inc5619/chat_env/lib/python3.12/site-packages'
-if os.path.exists(venv_path) and venv_path not in sys.path:
-    sys.path.insert(0, venv_path)
-
-
-
 
 import nltk
 from nltk.tokenize import word_tokenize
