@@ -40,7 +40,7 @@ How it works:
 
 Output:
 
-   ![speech to text Output](output/speech_to_text.png)
+   ![speech_to_text Output](output/speech_to_text.png)
 
 
 
