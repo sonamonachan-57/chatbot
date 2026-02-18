@@ -99,3 +99,92 @@ Output:
 
    ![chatbot Output](output/chatbot.png)
 
+
+3.Simple CLI Chatbot using Ollama (LLaMA 3)
+
+This project is a simple command-line chatbot built using Python and Ollama.
+It runs the LLaMA 3 model locally and maintains conversation history to enable contextual responses.
+
+The chatbot:
+
+Accepts user input from the terminal
+
+Sends conversation history to the model
+
+Prints model responses
+
+Maintains context across the session
+
+Exits when the user types exit or quit
+
+Requirements:
+      
+       Python 3.8+
+
+     Ollama installed on your system
+
+     LLaMA 3 model pulled locally
+
+1️⃣ Install Ollama
+
+       https://ollama.com/download
+
+Verify installation:
+
+      ollama --version
+
+2️⃣ Pull LLaMA 3 Model
+
+    ollama pull llama3
+
+3️⃣ Install Python Ollama Package
+        
+    pip install ollama
+
+2️⃣ Pull LLaMA 3 Model
+
+    ollama pull llama3
+
+3️⃣ Install Python Ollama Package
+
+    pip install ollama
+
+How it works:
+
+🔹 Conversation History
+
+The chatbot maintains a list called history:
+
+    history = []
+
+
+Each message is stored in this format:
+
+    {
+    "role": "user" or "assistant",
+    "content": "message text"
+    }
+
+
+This allows the model to remember previous messages and respond contextually.
+
+🔹 Sending Messages to Model
+         
+    response = ollama.chat(model=model, messages=history)
+
+ model="llama3" → specifies the LLaMA 3 model
+ messages=history → sends entire conversation history
+
+ Features:
+
+Runs locally (no cloud API required)
+
+Maintains conversation context
+
+Simple CLI interface
+
+Lightweight and beginner-friendly
+
+
+ Output:
+
