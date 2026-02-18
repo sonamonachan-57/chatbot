@@ -16,7 +16,7 @@ Features:
   Beginner-friendly implementation
 
 
-Technologies used:
+Technologies used: 
 
         Python 3.x
         SpeechRecognition
@@ -47,8 +47,6 @@ Output:
 
 
    
-
-
 
 2.Customer service robot (rule based)
 
