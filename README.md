@@ -173,6 +173,7 @@ This allows the model to remember previous messages and respond contextually.
     response = ollama.chat(model=model, messages=history)
 
  model="llama3" → specifies the LLaMA 3 model
+ 
  messages=history → sends entire conversation history
 
  Features:
