@@ -116,7 +116,7 @@ Maintains context across the session
 Exits when the user types exit or quit
 
 Requirements:
-      
+ ---    
        Python 3.8+
 
      Ollama installed on your system
