@@ -148,7 +148,7 @@ Verify installation:
     pip install ollama
 
 How it works:
-
+---
 🔹 Conversation History
 
 The chatbot maintains a list called history:
