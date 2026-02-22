@@ -39,7 +39,7 @@ How it works:
    recognize_google() converts speech into text
 
 Output:
-
+---
    ![speech_to_text Output](output/speech_to_text.png)
 
 
@@ -53,7 +53,7 @@ The chatbot detects user intent using basic Natural Language Processing (tokeniz
 
 
 Features:
-
+---
   Uses NLP tokenization (word_tokenize)
 
   Handles greetings and farewells
@@ -68,22 +68,22 @@ Features:
 
 
 Technologies used:
-
+---
        Python 3.x
        NLTK (Natural Language Toolkit)
        Rule-Based NLP Approach
 
 Install dependencies:
-       
+ ---      
        pip install nltk
        
 Download required NLTK data:
-         
+ ---        
          import nltk
          nltk.download('punkt')
 
 How it works:
-
+---
    User input is converted to lowercase
 
    Text is tokenized using word_tokenize()
@@ -94,7 +94,7 @@ How it works:
 
 
 Output:
-
+---
    ![chatbot Output](output/chatbot.png)
 
 
@@ -104,7 +104,7 @@ This project is a simple command-line chatbot built using Python and Ollama.
 It runs the LLaMA 3 model locally and maintains conversation history to enable contextual responses.
 
 The chatbot:
-
+---
 Accepts user input from the terminal
 
 Sends conversation history to the model
