@@ -186,5 +186,5 @@ Lightweight and beginner-friendly
 
 
  Output:
-
+---
  ![ ollama chatbot Output](output/ollama_chatbot.png)
