@@ -4,7 +4,7 @@
    This program captures audio from the microphone and converts it into text using Google's Speech Recognition API.
 
 Features:
-
+---
    Captures live audio from microphone
 
    Adjusts for background noise
@@ -17,19 +17,19 @@ Features:
 
 
 Technologies used: 
-
+---
         Python 3.x
         SpeechRecognition
         PyAudio
         Google Web Speech API
 
 Install dependencies:
-
+---
      pip install SpeechRecognition
      pip install pyaudio
 
 How it works:
-
+---
    Recognizer() initializes the speech recognizer
    
    Microphone() captures live audio
