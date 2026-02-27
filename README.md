@@ -189,7 +189,7 @@ Lightweight and beginner-friendly
 ---
  ![ ollama chatbot Output](output/ollama_chatbot.png)
 
- #3. Product Manual Customer Support Chatbot (Ollama + Python)
+ # 4. Product Manual Customer Support Chatbot (Ollama + Python)
  
  A simple RAG-based (Retrieval-Augmented Generation) customer support chatbot built using Python and Ollama (Llama3).
 The chatbot retrieves relevant information from a product manual and generates contextual answers. If no relevant information is found, it escalates the query to a human support agent.
