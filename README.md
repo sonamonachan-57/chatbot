@@ -241,7 +241,58 @@ If not found → escalation message
 
 4️⃣ Conversation Memory
 
-Maintains chat history for better responses
+Maintains chat history for better responses.
 
+# 5.Offline Voice Assistant (Speech → LLM → Speech)
 
+A simple Python voice assistant that listens to your speech, processes it using a local LLM (Llama3 via Ollama), and responds using text-to-speech.
 
+This project demonstrates a complete Voice AI pipeline:
+
+    ➡️ Speech Recognition → 🤖 LLM Thinking → 🔊 Text-to-Speech
+
+## Features:
+✅ Voice input using microphone
+
+✅ Speech recognition with Google Speech API
+
+✅ Local AI responses using Ollama (Llama3)
+
+✅ Text-to-speech output using pyttsx3
+
+✅ Continuous conversation loop
+
+✅ Exit via voice command ("exit", "stop", "quit")
+
+✅ Beginner-friendly architecture
+
+## Requirements:
+
+    Python 3.8+
+    Microphone access
+    Ollama installed
+## How it works:
+
+1️⃣ listen()
+
+Captures microphone input
+
+Removes ambient noise
+
+Converts speech → text
+
+2️⃣ think()
+
+Sends text to Ollama (Llama3)
+
+Generates AI response locally
+
+3️⃣ speak()
+
+Converts AI text → speech
+
+Uses offline TTS engine (pyttsx3)
+
+4️⃣ main()
+
+Runs continuous voice interaction loop
