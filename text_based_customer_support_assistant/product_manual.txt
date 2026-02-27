@@ -1,0 +1,80 @@
+product name: smart home wifi router
+
+product overview:
+
+Smart internet wifi works by continuously monitoring your network and making real-time adjustments to optimize performance. By collecting data on your usage habits, the system can predict when and where you'll need the strongest signal, ensuring that you always have a fast and reliable connection.
+
+
+product specifications:
+
+    Wi-Fi router specifications
+    define network performance, with key metrics including Wi-Fi 6/7 standards (802.11ax/be), dual/tri-band frequencies (2.4/5/6 GHz), and gigabit WAN/LAN ports
+
+Installation steps:
+
+      Step 1: Decide where to place the router
+      Step 2: Connect to the Internet
+      Step 3: Configure the wireless router gateway
+      Step 4: Connect gateway to router
+      Step 5: Use app or web dashboard
+      Step 6: Create a username and password
+      Step 7: Update the router's firmware
+      Step 8: Create a Wi-Fi password
+      Step 9: Use auto-configuration tools where possible
+      Step 10: Set up security
+
+
+features:
+
+
+
+    Android-based platform: Runs Android 14 with built-in Wi-Fi (supports 2.4 GHz and 5 GHz) and Google Play Store access .
+
+    4K UHD output: Supports up to 4K @ 60 Hz resolution with HDR and HEVC (H.265) decoding .
+
+    Satellite tuner: DVB‑S2 compliant with dual-band (C/Ku) support and motorized DiSEqC 1.2 .
+
+    Inputs & Expandability: 4 GB RAM, 32 GB storage, multiple USB ports for external drives, expansion, and recording .
+
+    Other connectivity: Likely includes HDMI, Ethernet, Bluetooth, and external IR receiver .
+
+    Enhanced user interface: Google Play allows smart apps like Netflix and YouTube; satellite functions include blind-scan, PIG, 7-day EPG, and favorite-channel lists .
+
+
+Troubleshooting:
+
+If router is unable to access the Internet, check that the Internet connection is working, and
+then check that the wireless router can get an Internet address.
+ 
+    Internet Connection:
+
+First verify that your cable or ADSL modem has a successful connection. The cable or ADSL
+modem status lights indicate if the modem connection is successful or not. Check your modem
+documentation or call your Internet service provider for help with verifying that the modem has a
+successful connection.
+
+    Wireless Router Internet Light is Green or Blinking Green:
+
+If your Internet light is green or blinking green, then you have a good Internet connection, and
+your wiring is correct.
+
+     Wireless Router Internet Light Off:
+
+If the Internet light is off, verify that the Ethernet cable is securely connected between the cable or
+ADSL modem, and that both the modem and wireless router are turned on.
+
+
+Warranty Information:
+
+2 years
+
+Safety Information:
+
+   Radiation Level:
+      Wi-Fi routers emit low-level non-ionizing radiofrequency (RF) electromagnetic fields (EMF). These levels are far below international human exposure limits.
+   Signal Weakness: 
+      The signal strength decreases rapidly with distance, meaning exposure drops significantly more than three feet away from the router.
+   Children: 
+      There is no established evidence that low-level RF from Wi-Fi affects children, but it is generally recommended to place routers away from sleeping areas.
+   Recommended Distance:
+      For peace of mind, experts recommend keeping the router at least 6-10 feet (approx. 1-2 meters) away from areas where people spend long periods. 
