@@ -208,6 +208,40 @@ The chatbot retrieves relevant information from a product manual and generates c
 
 ✅ Lightweight and beginner-friendly RAG implementation
 
+## Requirements:
+
+    Python 3.8+
+    Ollama installed
+    Llama3 model downloaded in Ollama
+
+Product Manual Format:
+The manual should be stored in product_manual.txt.
+
+  Separate sections using blank lines so retrieval works properly.
+
+## How it works:
+
+1️⃣ Manual Loading
+
+Reads the manual
+
+Splits into sections using blank lines
+
+2️⃣ Retrieval
+
+Converts query to lowercase
+
+Finds the first section containing matching keywords
+
+3️⃣ Prompt Engineering
+
+If context found → grounded response
+
+If not found → escalation message
+
+4️⃣ Conversation Memory
+
+Maintains chat history for better responses
 
 
 
