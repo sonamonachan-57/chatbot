@@ -245,7 +245,7 @@ Maintains chat history for better responses.
 
 ## Output:
 
-
+ ![ ollama chatbot Output](output/customer_support_chatbot.png)
 
 
 # 5.Offline Voice Assistant (Speech → LLM → Speech)
