@@ -243,6 +243,11 @@ If not found → escalation message
 
 Maintains chat history for better responses.
 
+## Output:
+
+
+
+
 # 5.Offline Voice Assistant (Speech → LLM → Speech)
 
 A simple Python voice assistant that listens to your speech, processes it using a local LLM (Llama3 via Ollama), and responds using text-to-speech.
