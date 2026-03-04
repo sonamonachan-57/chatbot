@@ -1,4 +1,4 @@
-# 1. Speech to text using speech recognition
+# 1. 📌 Speech to text using speech recognition
 
    A basic real-time Speech Recognition project built using Python and the SpeechRecognition library.
    This program captures audio from the microphone and converts it into text using Google's Speech Recognition API.
@@ -46,7 +46,7 @@ Output:
 
 
 
-# 2.Customer service robot (rule based)
+# 2. 📌 Customer service robot (rule based)
 
 A simple rule-based Customer Service Chatbot built using Python and NLTK.
 The chatbot detects user intent using basic Natural Language Processing (tokenization + keyword matching) and responds accordingly.
@@ -98,7 +98,7 @@ Output:
    ![chatbot Output](output/chatbot.png)
 
 
-# 3.Simple CLI Chatbot using Ollama (LLaMA 3)
+# 3. 📌 Simple CLI Chatbot using Ollama (LLaMA 3)
 
 This project is a simple command-line chatbot built using Python and Ollama.
 It runs the LLaMA 3 model locally and maintains conversation history to enable contextual responses.
@@ -189,7 +189,7 @@ Lightweight and beginner-friendly
 ---
  ![ ollama chatbot Output](output/ollama_chatbot.png)
 
- # 4. Product Manual Customer Support Chatbot (Ollama + Python)
+ # 4. 📌 Product Manual Customer Support Chatbot (Ollama + Python)
  
  A simple RAG-based (Retrieval-Augmented Generation) customer support chatbot built using Python and Ollama (Llama3).
 The chatbot retrieves relevant information from a product manual and generates contextual answers. If no relevant information is found, it escalates the query to a human support agent.
@@ -248,7 +248,7 @@ Maintains chat history for better responses.
  ![ ollama chatbot Output](output/customer_support_chatbot.png)
 
 
-# 5.Offline Voice Assistant (Speech → LLM → Speech)
+# 5.📌 Offline Voice Assistant (Speech → LLM → Speech)
 
 A simple Python voice assistant that listens to your speech, processes it using a local LLM (Llama3 via Ollama), and responds using text-to-speech.
 
