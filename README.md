@@ -104,8 +104,8 @@ The chatbot detects user intent using basic Natural Language Processing (tokeniz
 This project is a simple command-line chatbot built using Python and Ollama.
 It runs the LLaMA 3 model locally and maintains conversation history to enable contextual responses.
 
-The chatbot:
----
+## The chatbot:
+
 Accepts user input from the terminal
 
 Sends conversation history to the model
@@ -116,8 +116,8 @@ Maintains context across the session
 
 Exits when the user types exit or quit
 
-Requirements:
- ---    
+## Requirements:
+     
        Python 3.8+
 
      Ollama installed on your system
@@ -148,8 +148,8 @@ Verify installation:
 
     pip install ollama
 
-How it works:
----
+## How it works:
+
 🔹 Conversation History
 
 The chatbot maintains a list called history:
@@ -186,9 +186,11 @@ Simple CLI interface
 Lightweight and beginner-friendly
 
 
- Output:
----
+## Output:
+
  ![ ollama chatbot Output](output/ollama_chatbot.png)
+ 
+---
 
  # 4. 📌 Product Manual Customer Support Chatbot (Ollama + Python)
  
@@ -248,6 +250,7 @@ Maintains chat history for better responses.
 
  ![ ollama chatbot Output](output/customer_support_chatbot.png)
 
+---
 
 # 5.📌 Offline Voice Assistant (Speech → LLM → Speech)
 
