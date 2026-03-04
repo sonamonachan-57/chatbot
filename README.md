@@ -1,9 +1,11 @@
 # 1. 📌 Speech to text using speech recognition
 
+## 📖 overview:
+
    A basic real-time Speech Recognition project built using Python and the SpeechRecognition library.
    This program captures audio from the microphone and converts it into text using Google's Speech Recognition API.
 
-## Features:
+## 🔮 Features:
 
    Captures live audio from microphone
 
@@ -16,19 +18,19 @@
   Beginner-friendly implementation
 
 
-## Technologies used: 
+## 🛠️ Technologies used: 
 
         Python 3.x
         SpeechRecognition
         PyAudio
         Google Web Speech API
 
-## Install dependencies:
+## ⚙️ Install dependencies:
 
      pip install SpeechRecognition
      pip install pyaudio
 
-## How it works:
+## ⚙️ How it works:
 
    Recognizer() initializes the speech recognizer
    
@@ -38,7 +40,7 @@
    
    recognize_google() converts speech into text
 
-## Output:
+## 📸 Output:
 
    ![speech_to_text Output](output/speech_to_text.png)
 
@@ -48,11 +50,13 @@
 
 # 2. 📌 Customer service robot (rule based)
 
+## 📖 Overview:
+
 A simple rule-based Customer Service Chatbot built using Python and NLTK.
 The chatbot detects user intent using basic Natural Language Processing (tokenization + keyword matching) and responds accordingly.
 
 
-## Features:
+## 🔮 Features:
 
   Uses NLP tokenization (word_tokenize)
 
@@ -67,13 +71,13 @@ The chatbot detects user intent using basic Natural Language Processing (tokeniz
   Object-Oriented implementation
 
 
-## Technologies used:
+## 🛠️ Technologies used:
 
        Python 3.x
        NLTK (Natural Language Toolkit)
        Rule-Based NLP Approach
 
-## Install dependencies:
+## ⚙️ Install dependencies:
        
        pip install nltk
        
@@ -82,7 +86,7 @@ The chatbot detects user intent using basic Natural Language Processing (tokeniz
          import nltk
          nltk.download('punkt')
 
-## How it works:
+## ⚙️ How it works:
 
    User input is converted to lowercase
 
@@ -93,13 +97,15 @@ The chatbot detects user intent using basic Natural Language Processing (tokeniz
   Appropriate response is returned
 
 
-## Output:
+## 📸 Output:
 
    ![chatbot Output](output/chatbot.png)
 
 ---
 
 # 3. 📌 Simple CLI Chatbot using Ollama (LLaMA 3)
+
+## 📖 Overview:
 
 This project is a simple command-line chatbot built using Python and Ollama.
 It runs the LLaMA 3 model locally and maintains conversation history to enable contextual responses.
@@ -148,7 +154,7 @@ Verify installation:
 
     pip install ollama
 
-## How it works:
+## ⚙️ How it works:
 
 🔹 Conversation History
 
@@ -186,18 +192,20 @@ Simple CLI interface
 Lightweight and beginner-friendly
 
 
-## Output:
+## 📸 Output:
 
  ![ ollama chatbot Output](output/ollama_chatbot.png)
  
 ---
 
  # 4. 📌 Product Manual Customer Support Chatbot (Ollama + Python)
+
+ ## 📖 Overview:
  
  A simple RAG-based (Retrieval-Augmented Generation) customer support chatbot built using Python and Ollama (Llama3).
 The chatbot retrieves relevant information from a product manual and generates contextual answers. If no relevant information is found, it escalates the query to a human support agent.
 
-## Features:
+## 🔮 Features:
 
 ✅Loads and parses a product manual
 
@@ -211,7 +219,7 @@ The chatbot retrieves relevant information from a product manual and generates c
 
 ✅ Lightweight and beginner-friendly RAG implementation
 
-## Requirements:
+## 🛠️ Requirements:
 
     Python 3.8+
     Ollama installed
@@ -222,7 +230,7 @@ The manual should be stored in product_manual.txt.
 
   Separate sections using blank lines so retrieval works properly.
 
-## How it works:
+## ⚙️ How it works:
 
 1️⃣ Manual Loading
 
@@ -246,7 +254,7 @@ If not found → escalation message
 
 Maintains chat history for better responses.
 
-## Output:
+## 📸 Output:
 
  ![ ollama chatbot Output](output/customer_support_chatbot.png)
 
@@ -254,13 +262,16 @@ Maintains chat history for better responses.
 
 # 5.📌 Offline Voice Assistant (Speech → LLM → Speech)
 
+## 📖 Overview:
+
 A simple Python voice assistant that listens to your speech, processes it using a local LLM (Llama3 via Ollama), and responds using text-to-speech.
 
 This project demonstrates a complete Voice AI pipeline:
 
     ➡️ Speech Recognition → 🤖 LLM Thinking → 🔊 Text-to-Speech
 
-## Features:
+## 🔮 Features:
+
 ✅ Voice input using microphone
 
 ✅ Speech recognition with Google Speech API
@@ -275,12 +286,14 @@ This project demonstrates a complete Voice AI pipeline:
 
 ✅ Beginner-friendly architecture
 
-## Requirements:
+## 🛠️ Requirements:
 
     Python 3.8+
     Microphone access
     Ollama installed
-## How it works:
+
+    
+## ⚙️ How it works:
 
 1️⃣ listen()
 
