@@ -52,8 +52,8 @@ A simple rule-based Customer Service Chatbot built using Python and NLTK.
 The chatbot detects user intent using basic Natural Language Processing (tokenization + keyword matching) and responds accordingly.
 
 
-Features:
----
+## Features:
+
   Uses NLP tokenization (word_tokenize)
 
   Handles greetings and farewells
@@ -67,23 +67,23 @@ Features:
   Object-Oriented implementation
 
 
-Technologies used:
----
+## Technologies used:
+
        Python 3.x
        NLTK (Natural Language Toolkit)
        Rule-Based NLP Approach
 
-Install dependencies:
- ---      
+## Install dependencies:
+       
        pip install nltk
        
-Download required NLTK data:
- ---        
+## Download required NLTK data:
+         
          import nltk
          nltk.download('punkt')
 
-How it works:
----
+## How it works:
+
    User input is converted to lowercase
 
    Text is tokenized using word_tokenize()
@@ -93,10 +93,11 @@ How it works:
   Appropriate response is returned
 
 
-Output:
----
+## Output:
+
    ![chatbot Output](output/chatbot.png)
 
+---
 
 # 3. 📌 Simple CLI Chatbot using Ollama (LLaMA 3)
 
