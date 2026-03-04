@@ -122,7 +122,7 @@ Maintains context across the session
 
 Exits when the user types exit or quit
 
-## Requirements:
+## 🛠️ Requirements:
      
        Python 3.8+
 
