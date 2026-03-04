@@ -318,3 +318,118 @@ Uses offline TTS engine (pyttsx3)
 4️⃣ main()
 
 Runs continuous voice interaction loop
+---
+
+# 6. 🌐 Multilingual Text Chatbot
+
+## 📌 Overview
+
+The Multilingual Text Chatbot is a conversational AI application that detects the language of a user's input and generates responses in the same language.
+
+The system uses automatic language detection and a local large language model (LLM) to provide natural conversational replies without translating the input into English. This allows users to interact with the chatbot in multiple languages seamlessly.
+
+The chatbot runs locally using the Ollama framework and supports models such as LLaMA 3.
+
+## 🎯 Objective
+
+The objective of this project is to build a language-aware conversational assistant that:
+
+Detects the language of user input automatically
+
+Generates responses in the same language
+
+Enables multilingual interaction without manual language selection
+
+Demonstrates integration of LLMs with language detection
+
+## ⚙️ How It Works:
+
+```
+User Input
+    │
+    ▼
+Language Detection (langdetect)
+    │
+    ▼
+Prompt Generation
+    │
+    ▼
+LLM Processing (LLaMA3 via Ollama)
+    │
+    ▼
+Response in Same Language
+    │
+    ▼
+Chatbot Reply
+```
+
+## Process Explanation
+
+1.The user enters a question or message.
+
+2.The system detects the language using the langdetect library.
+
+3.A prompt is created instructing the model to reply in the same language.
+
+4.The question is sent to the LLaMA3 model via Ollama.
+
+5.The chatbot returns a conversational response.
+
+## 🛠️ Technologies Used
+
+    Python
+    Langdetect (language detection)
+    Ollama
+    LLaMA 3 Model
+    Large Language Models (LLMs)
+
+## ✨ Features
+
+🌍 Automatic language detection
+
+💬 Natural conversational responses
+
+🧠 Local LLM inference using Ollama
+
+🔁 Continuous chat loop interaction
+
+⚡ Fast local processing without cloud APIs
+
+🔐 Works offline once the model is installed
+
+## 📦 Installation:
+
+1️⃣ Install Python Dependencies:
+
+       pip install langdetect ollama
+
+2️⃣ Install Ollama:
+            
+         https://ollama.com/
+      
+3️⃣ Pull the LLaMA3 Model
+      
+      ollama pull llama3
+
+## 🌎 Supported Languages
+
+The chatbot can detect and respond in many languages including:
+
+    English
+    Malayalam
+    Hindi
+    Spanish
+    French
+    German
+    Tamil
+    Arabic
+    Chinese
+
+(Support depends on the language capabilities of the LLM.)
+
+## 📸 Output:
+
+ ![ ollama multilingual Output](output/multilingual_text_chatbot.png)
+
+---
+
