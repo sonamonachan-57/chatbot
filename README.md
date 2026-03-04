@@ -3,8 +3,8 @@
    A basic real-time Speech Recognition project built using Python and the SpeechRecognition library.
    This program captures audio from the microphone and converts it into text using Google's Speech Recognition API.
 
-Features:
----
+## Features:
+
    Captures live audio from microphone
 
    Adjusts for background noise
@@ -16,20 +16,20 @@ Features:
   Beginner-friendly implementation
 
 
-Technologies used: 
----
+## Technologies used: 
+
         Python 3.x
         SpeechRecognition
         PyAudio
         Google Web Speech API
 
-Install dependencies:
----
+## Install dependencies:
+
      pip install SpeechRecognition
      pip install pyaudio
 
-How it works:
----
+## How it works:
+
    Recognizer() initializes the speech recognizer
    
    Microphone() captures live audio
@@ -38,12 +38,12 @@ How it works:
    
    recognize_google() converts speech into text
 
-Output:
----
+## Output:
+
    ![speech_to_text Output](output/speech_to_text.png)
 
 
-
+---
 
 
 # 2. 📌 Customer service robot (rule based)
