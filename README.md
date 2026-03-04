@@ -318,6 +318,7 @@ Uses offline TTS engine (pyttsx3)
 4️⃣ main()
 
 Runs continuous voice interaction loop
+
 ---
 
 # 6. 🌐 Multilingual Text Chatbot
