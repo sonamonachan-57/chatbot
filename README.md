@@ -7,15 +7,15 @@
 
 ## 🔮 Features:
 
-   Captures live audio from microphone
+  🔹 Captures live audio from microphone
 
-   Adjusts for background noise
+  🔹Adjusts for background noise
 
-  Converts speech to text using Google API
+  🔹 Converts speech to text using Google API
 
-  Handles errors gracefully
+  🔹 Handles errors gracefully
 
-  Beginner-friendly implementation
+  🔹 Beginner-friendly implementation
 
 
 ## 🛠️ Technologies used: 
@@ -32,13 +32,13 @@
 
 ## ⚙️ How it works:
 
-   Recognizer() initializes the speech recognizer
+   🔹Recognizer() initializes the speech recognizer
    
-   Microphone() captures live audio
+   🔹Microphone() captures live audio
    
-   adjust_for_ambient_noise() reduces background noise
+   🔹adjust_for_ambient_noise() reduces background noise
    
-   recognize_google() converts speech into text
+   🔹recognize_google() converts speech into text
 
 ## 📸 Output:
 
@@ -58,17 +58,17 @@ The chatbot detects user intent using basic Natural Language Processing (tokeniz
 
 ## 🔮 Features:
 
-  Uses NLP tokenization (word_tokenize)
+  🔹Uses NLP tokenization (word_tokenize)
 
-  Handles greetings and farewells
+  🔹Handles greetings and farewells
 
-  Supports order tracking queries
+  🔹Supports order tracking queries
 
-  Handles refund/return requests
+  🔹Handles refund/return requests
 
-  Responds to complaints
+  🔹Responds to complaints
 
-  Object-Oriented implementation
+  🔹Object-Oriented implementation
 
 
 ## 🛠️ Technologies used:
@@ -88,13 +88,13 @@ The chatbot detects user intent using basic Natural Language Processing (tokeniz
 
 ## ⚙️ How it works:
 
-   User input is converted to lowercase
+   🔹User input is converted to lowercase
 
-   Text is tokenized using word_tokenize()
+   🔹Text is tokenized using word_tokenize()
 
-   Tokens are matched against predefined keyword lists
+   🔹Tokens are matched against predefined keyword lists
 
-  Appropriate response is returned
+  🔹Appropriate response is returned
 
 
 ## 📸 Output:
@@ -112,19 +112,19 @@ It runs the LLaMA 3 model locally and maintains conversation history to enable c
 
 ## The chatbot:
 
-Accepts user input from the terminal
+🔹Accepts user input from the terminal
 
-Sends conversation history to the model
+🔹Sends conversation history to the model
 
-Prints model responses
+🔹Prints model responses
 
-Maintains context across the session
+🔹Maintains context across the session
 
-Exits when the user types exit or quit
+🔹Exits when the user types exit or quit
 
 ## 🛠️ Requirements:
      
-       Python 3.8+
+      Python 3.8+
 
      Ollama installed on your system
 
