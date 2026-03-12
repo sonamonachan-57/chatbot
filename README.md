@@ -509,10 +509,10 @@ Audio Response to User
 -  Real-time microphone recording  
 -  Multilingual conversation support  
 -  Context-aware AI responses  
-- ⚡ Fast LLM inference using Groq  
-- 🔊 Text-to-speech responses  
-- 🗣 Automatic speech detection using VAD  
-- 💬 Conversation memory for better context  
+-  Fast LLM inference using Groq  
+-  Text-to-speech responses  
+-  Automatic speech detection using VAD  
+-  Conversation memory for better context  
 
 ---
 
@@ -611,16 +611,8 @@ voice-ai-assistant
 
 ---
 
-# 🚀 Future Enhancements
 
-- 🎧 Real-time streaming speech recognition  
-- 🤖 Emotion-aware voice responses  
-- 🌐 Web interface using **Streamlit or React**  
-- 📚 Knowledge-based RAG integration  
-- 📱 Mobile voice assistant version  
-- 🎤 Wake-word activation (like Alexa)
 
----
 
 # 🌍 Applications
 
@@ -632,16 +624,7 @@ voice-ai-assistant
 
 ---
 
-# ⚠️ Security Note
 
-Avoid storing API keys directly in the code.  
-Use **environment variables or `.env` files** for production systems.
-
----
-
-# 📄 License
-
-This project is developed for **learning and research purposes**.
 
 
 
