@@ -1,11 +1,3 @@
-import os
-import sys
-venv_path = '/home/sona-inc5619/mp_env/lib/python3.12/site-packages'
-if os.path.exists(venv_path) and venv_path not in sys.path:
-    sys.path.insert(0, venv_path)
-
-
-
 import sounddevice as sd
 from scipy.io.wavfile import write
 from groq import Groq
@@ -25,7 +17,7 @@ import numpy as np
 # API KEYS
 # -----------------------------
 
-GROQ_API_KEY = "key"
+GROQ_API_KEY = "API key here"
 
 client = Groq(api_key=GROQ_API_KEY)
 
