@@ -434,3 +434,217 @@ The chatbot can detect and respond in many languages including:
 
 ---
 
+
+# 7. # 🎤 Multilingual Voice AI Assistant
+
+## 📌 Overview
+
+The **Multilingual Voice AI Assistant** is a real-time conversational system that allows users to interact with an AI using **voice input and audio responses**.
+
+The assistant records user speech, converts it into text using **Whisper speech recognition**, generates intelligent responses using a **large language model (LLM)** via **Groq**, and replies with **natural speech using text-to-speech (TTS)**.
+
+The system also supports **multiple languages**, automatically responding in the same language spoken by the user.
+
+---
+
+# 🎯 Objective:
+
+The goal of this project is to build a **low-latency multilingual voice conversational system** that:
+
+- Records real-time speech from the microphone  
+- Converts speech to text using **Whisper**  
+- Generates intelligent responses using **LLMs**  
+- Responds with **spoken audio output**  
+- Maintains conversation memory for context  
+
+---
+
+# ⚙️ How It Works:
+
+```
+User Speech
+     │
+     ▼
+Voice Activity Detection (VAD)
+     │
+     ▼
+Audio Recording
+     │
+     ▼
+Speech Recognition (Whisper)
+     │
+     ▼
+Text Query
+     │
+     ▼
+LLM Processing (Groq API)
+     │
+     ▼
+AI Response
+     │
+     ▼
+Text-to-Speech (gTTS)
+     │
+     ▼
+Audio Response to User
+```
+
+---
+
+# 🛠️ Technologies Used
+
+- Python  
+- Groq API – Fast LLM inference  
+- Whisper (Speech Recognition)  
+- gTTS – Text to speech  
+- SoundDevice – Microphone audio capture  
+- WebRTC VAD – Voice activity detection  
+- NumPy  
+- SciPy  
+
+---
+
+# ✨ Features
+
+-  Real-time microphone recording  
+-  Multilingual conversation support  
+-  Context-aware AI responses  
+- ⚡ Fast LLM inference using Groq  
+- 🔊 Text-to-speech responses  
+- 🗣 Automatic speech detection using VAD  
+- 💬 Conversation memory for better context  
+
+---
+
+# 📦 Installation
+
+## 1️⃣ Install Python Dependencies
+
+```bash
+pip install sounddevice scipy numpy gtts webrtcvad groq
+```
+
+---
+
+## 2️⃣ Install Audio Player
+
+The project uses **mpg123** to play generated audio.
+
+### Ubuntu
+
+```bash
+sudo apt install mpg123
+```
+
+---
+
+## 3️⃣ Get Groq API Key
+
+1. Go to  
+https://console.groq.com
+
+2. Create an API key.
+
+3. Add the key inside the script:
+
+```python
+GROQ_API_KEY = "your_api_key_here"
+```
+
+---
+
+# ▶️ Running the Assistant
+
+Run the script:
+
+```bash
+python voice_assistant.py
+```
+
+You will see:
+
+```
+AI Bot started
+AI Bot: My name is Sarah. How may I assist you?
+🎤 Speak now...
+```
+
+Then speak into your microphone.
+
+---
+
+# 🌎 Supported Languages
+
+The assistant automatically detects language from Whisper.
+
+Examples supported:
+
+- English  
+- Malayalam  
+- Hindi  
+- Tamil  
+
+The AI will **respond in the same language as the user**.
+
+---
+
+# 🧠 Models Used
+
+| Task | Model |
+|-----|-----|
+| Speech Recognition | Whisper Large v3 |
+| AI Reasoning | GPT-OSS-120B |
+| Text-to-Speech | Google TTS |
+
+---
+
+# 📁 Project Structure
+
+```
+voice-ai-assistant
+│
+├── voice_assistant.py
+├── input.wav
+├── response.mp3
+└── README.md
+```
+
+---
+
+# 🚀 Future Enhancements
+
+- 🎧 Real-time streaming speech recognition  
+- 🤖 Emotion-aware voice responses  
+- 🌐 Web interface using **Streamlit or React**  
+- 📚 Knowledge-based RAG integration  
+- 📱 Mobile voice assistant version  
+- 🎤 Wake-word activation (like Alexa)
+
+---
+
+# 🌍 Applications
+
+- AI voice assistants  
+- Customer support systems  
+- Smart home automation  
+- Multilingual AI assistants  
+- Accessibility tools  
+
+---
+
+# ⚠️ Security Note
+
+Avoid storing API keys directly in the code.  
+Use **environment variables or `.env` files** for production systems.
+
+---
+
+# 📄 License
+
+This project is developed for **learning and research purposes**.
+
+
+
+    
+
+
