@@ -435,7 +435,7 @@ The chatbot can detect and respond in many languages including:
 ---
 
 
-# 7. # 🎤 Multilingual Voice AI Assistant
+# 7. 🎤 Multilingual Voice AI Assistant
 
 ## 📌 Overview
 
@@ -610,9 +610,6 @@ voice-ai-assistant
 ```
 
 ---
-
-
-
 
 # 🌍 Applications
 
